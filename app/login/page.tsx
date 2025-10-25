@@ -70,7 +70,7 @@ export default function LoginPage() {
           </div>
           <div className="space-y-2">
             <CardTitle className="text-4xl font-bold bg-gradient-to-r from-cyan-600 via-blue-600 to-blue-800 bg-clip-text text-transparent">
-              CleanPro System
+              FBS System
             </CardTitle>
             <p className="text-sm font-medium text-cyan-700">Fábrica de Detergentes</p>
           </div>
