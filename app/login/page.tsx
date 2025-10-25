@@ -26,7 +26,7 @@ export default function LoginPage() {
     await new Promise((resolve) => setTimeout(resolve, 500))
 
     // Credenciales quemadas
-    if (username === "admin" && password === "admin") {
+    if (username === "berna" && password === "berna") {
       if (typeof window !== "undefined") {
         localStorage.setItem("isAuthenticated", "true")
         localStorage.setItem("username", username)
@@ -139,19 +139,6 @@ export default function LoginPage() {
                 </span>
               )}
             </Button>
-
-            <div className="text-center pt-4 space-y-2">
-              <div className="h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
-              <div className="text-xs text-slate-500 bg-slate-50 rounded-lg p-3 border border-slate-200">
-                <p className="font-semibold text-slate-700 mb-1">Credenciales de acceso:</p>
-                <p className="font-mono text-cyan-700">
-                  Usuario: <span className="font-bold">admin</span>
-                </p>
-                <p className="font-mono text-cyan-700">
-                  Contraseña: <span className="font-bold">admin</span>
-                </p>
-              </div>
-            </div>
           </form>
         </CardContent>
       </Card>
